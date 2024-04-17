@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Quiz</title>
+    <link rel="stylesheet" href="assets/java.css">
+    <link rel="icon" type="image/svg+xml" href="assets/R.jpeg"/>
+</head>
+<body>
+    <!-- Video di sfondo -->
+    <div class="video-background bg-video">
+        <iframe src="https://www.youtube.com/embed/F_QY0djGFTY?autoplay=1&loop=1&controls=0&mute=1" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="menu-bar">
+        <a class="menu-button" href="javascript.html">JavaScript</a>
+        <a class="menu-button" href="css.html">CSS</a>
+        <a class="menu-button" href="html.html">HTML</a>
+        <a class="menu-button-home " href="index.html" class="home-btn">Home</a>
+        <a class="menu-button" href="react.html">React</a>
+        <a class="menu-button" href="nodejs.html">Node.js</a>
+        <a class="menu-button" href="python.html">Python</a>
+    </div>
+    <!-- Contenitore Centrato -->
+    <div class="container">
+        <!-- Contenuto del quiz -->
+        <div id="question-container"></div>
+        <div id="score-container"></div>
+        <button id="start-btn" onclick="startQuiz()">Avvia il quiz</button>
+        <button id="retry-btn" style="display: none;" onclick="retryQuiz()">Riprova quiz</button>
+    </div>
+    <!-- Script JavaScript per il quiz -->
+    <script src="assets/react.js"></script>
+</body>
+</html>
