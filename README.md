@@ -1,2 +1,0 @@
-# noname-repository
-Boolean test
